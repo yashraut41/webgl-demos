@@ -1,0 +1,1 @@
+To run this demo just clone the repo and click on ```index.html```
