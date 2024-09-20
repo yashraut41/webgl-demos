@@ -307,3 +307,5 @@ function keyDown(event) {
 function mousedown() {
     //
 }
+
+main()
