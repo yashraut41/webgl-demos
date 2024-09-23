@@ -55,9 +55,9 @@ function main() {
     //print canvas width and height on console 
     console.log("Canvas Width:" + canvas.width + "Canvas Height:" + canvas.height);
 
-    canvas_original_width = canvas.width;
-    canvas_original_height = canvas.height;
-
+    
+    canvas_original_width = window.innerWidth;
+    canvas_original_height = window.innerHeight;
 
 
 
