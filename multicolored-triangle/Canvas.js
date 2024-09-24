@@ -249,7 +249,7 @@ function draw() {
     let modelViewMatrix = mat4.create();
     let modelViewProjectionMatrix = mat4.create();
 
-    mat4.translate(modelViewMatrix, modelViewMatrix, [0.0, 0.0, -3.0]);
+    mat4.translate(modelViewMatrix, modelViewMatrix, [0.0, 0.0, -3.5]);
     mat4.multiply(modelViewProjectionMatrix, perspectiveProjectionMatrix, modelViewMatrix);
     gl.uniformMatrix4fv(mvpUniform, false, modelViewProjectionMatrix);
 
